@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "917998671805",
+    "project_id": "miniproject-ielts",
+    "storage_bucket": "miniproject-ielts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917998671805:android:96cf89225e75f7c12224d4",
+        "android_client_info": {
+          "package_name": "com.example.miniproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRxRQmYRVxKgGL4xg7dF6f90XhRJmks8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

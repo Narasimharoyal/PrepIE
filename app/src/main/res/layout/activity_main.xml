@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    android:paddingTop="64dp"
+    android:paddingBottom="32dp"
+    android:background="#BEF0F6">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"/>
+
+    <ImageView
+        android:id="@+id/ig1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/img"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ig1"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        android:textColor="@android:color/black"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:textColor="@android:color/black"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="24dp"
+        android:text="Login"
+        android:textColor="@android:color/white"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/redirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGoogleSignIn"
+        android:layout_marginTop="24dp"
+        android:text="New User? Sign up here"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
